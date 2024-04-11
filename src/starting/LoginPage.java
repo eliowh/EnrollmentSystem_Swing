@@ -41,7 +41,10 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+<<<<<<< HEAD
+=======
         setPreferredSize(new java.awt.Dimension(1100, 590));
+>>>>>>> 98cc69c0bc61aa36b4486e3ecdb22301318d3e62
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -84,6 +87,14 @@ public class LoginPage extends javax.swing.JFrame {
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setText("Sign Up");
+<<<<<<< HEAD
+        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel6MouseClicked(evt);
+            }
+        });
+=======
+>>>>>>> 98cc69c0bc61aa36b4486e3ecdb22301318d3e62
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -170,14 +181,32 @@ public class LoginPage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox1ActionPerformed
 
+<<<<<<< HEAD
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+    
+    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+        // TODO add your handling code here:
+        RegisterPage registerPage = new RegisterPage();
+        registerPage.setLocationRelativeTo(null);
+        registerPage.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel6MouseClicked
+
+=======
+>>>>>>> 98cc69c0bc61aa36b4486e3ecdb22301318d3e62
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
 
+<<<<<<< HEAD
+=======
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
 
+>>>>>>> 98cc69c0bc61aa36b4486e3ecdb22301318d3e62
     /**
      * @param args the command line arguments
      */

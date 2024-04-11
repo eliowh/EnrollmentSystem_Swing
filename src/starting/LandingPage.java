@@ -37,7 +37,11 @@ public class LandingPage extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+<<<<<<< HEAD
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+=======
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+>>>>>>> 98cc69c0bc61aa36b4486e3ecdb22301318d3e62
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED, new java.awt.Color(255, 51, 51), new java.awt.Color(204, 51, 0), null, new java.awt.Color(204, 0, 0)));
 
         jLabel2.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
@@ -117,6 +121,15 @@ public class LandingPage extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+<<<<<<< HEAD
+        if(evt.getSource() == jButton2){
+            RegisterPage registerPage = new RegisterPage();
+            registerPage.setLocationRelativeTo(null);
+            registerPage.setVisible(true);
+            this.dispose();
+        }
+=======
+>>>>>>> 98cc69c0bc61aa36b4486e3ecdb22301318d3e62
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
